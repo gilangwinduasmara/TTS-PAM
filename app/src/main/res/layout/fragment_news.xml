@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:text="Judul Berita" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="351dp"
+                android:layout_height="219dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/logo"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textViewBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="TextView"
+                tools:text="dsajdlasjdlasf;asl a;d;salkd;slak;l ka;k;ks;akd;ska;dk;ke;ka;dk;ask;dk;askd;ka;sds" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

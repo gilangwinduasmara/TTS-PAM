@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Berita Sederhana</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Judul</string>
+    <string name="body">Berita</string>
+    <string name="save">Simpan</string>
+    <string name="add">Tambah</string>
+    <string name="ERROR_FIELDS_REQUIRED">Semua data harus diisi</string>
+</resources>
